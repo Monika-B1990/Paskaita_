@@ -1,0 +1,18 @@
+Feature Put selected chair to the shopping basket
+Description: This Feature will test the functionality of how to put the selected item in the shopping basket 
+
+Scenario: User can find the product category
+  Given www.baldai1.lt page is opened
+  When User press "Visi baldai"
+  And Press "Kedes"
+  Then The list of all cairs are listed in the page
+
+Scenario: User can select the chair from the list
+  Given Scenario 1 should be completed
+  When User press first cair in the page 
+  Then the selected chair page is opened
+
+Scenario: USer can add selected chiar in the basket
+  Given Scenario 2 should be completed
+  When user press "Į krepšelį"
+  Then the selected cair is added to the basket
