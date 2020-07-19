@@ -1,0 +1,33 @@
+1.Feature Calculator
+Description: This Feature will test the functionality of plus, minus, multiplication and division 
+
+Scenario: User can use the plus function
+  Given User opens the calculator application
+  When User press "5"
+  And press "+" button
+  And press "5"
+  And user press "="
+  Then the number in the screen is "10"
+
+Scenario: User can use the minus function
+  Given User opens the calculatos application
+  When User press "5"
+  And press "-" 
+  And press "5"
+  And user press "="
+  Then the number in the screen is "0"
+
+Scenario: User can use the multiplication function
+  When User press "5"
+  And press "*" button
+  And press "5"
+  And user press "="
+  Then the number in the screen is "25"
+
+Scenario: User can use the division function
+  When User press "5"
+  And press "/" button
+  And press "5"
+  And user press "="
+  Then the number in the screen is "1"
+  
