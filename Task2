@@ -5,7 +5,7 @@ Scenario: User can find the product category
   Given www.baldai1.lt page is opened
   When User press "Visi baldai"
   And Press "Kedes"
-  Then The list of all cairs are listed in the page
+  Then The list of all chairs are listed in the page
 
 Scenario: User can select the chair from the list
   Given Scenario 1 should be completed
